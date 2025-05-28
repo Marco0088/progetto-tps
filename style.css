@@ -1,0 +1,195 @@
+/********************************
+ * Generale CSS
+ * 
+ * ************************************/
+ 
+ * {
+    box-sizing: border-box;
+   
+   /*da mettere sempre per i siti responsive*/
+   }
+   
+   header{
+   
+     background-color: #f08080;
+     padding: 15px;
+     text-align: center;
+   
+   }
+   
+   nav{
+   
+       float: left;
+       width: 20%;
+       text-align: center;
+   
+   }
+   
+   nav a{
+     overflow: auto;
+     background-color: #f0e68c;
+     padding: 8px;
+     margin-top: 7px;
+     display: block;
+     width: 100%;
+     color: black;
+   
+   }
+   article {
+     float: left;
+     width: 50%;
+     padding: 25px;
+     background-color: #ffffff;
+     margin-top: 10px;
+     font-family: 'Verdana', sans-serif;
+     color: #2c2c2c;
+     line-height: 1.8;
+     letter-spacing: 0.3px;
+     font-size: 16px;
+   }
+   
+   article h2 {
+     font-size: 24px;
+     font-weight: bold;
+     color: #005f73;
+     margin-bottom: 10px;
+   }
+   
+   article h1 {
+     font-size: 18px;
+     font-weight: normal;
+     font-style: italic;
+     color: #0a9396;
+     margin-bottom: 20px;
+   }
+   
+   article p {
+     margin-bottom: 20px;
+     text-align: left;
+   }
+   
+   
+   
+   aside{
+       background-color: #e6e6fa;
+       float: left;
+       width: 30%;
+       padding: 15px;
+       margin-top: 7px;
+       text-align: center;
+   
+   }
+   
+   section::after{
+        content: "";
+        display: table;
+        clear: both;
+   }
+   
+   footer{
+     background-color: #7fffd4;
+     text-align: center;
+     padding: 10px;
+     margin-top: 7px;
+   }
+   
+   @media only screen and (max-width:900px){
+   
+   nav, article, aside {
+   
+       width: 100%;
+   }
+   
+   }
+   
+   table {
+     width: 100%;
+     border-collapse: collapse;
+     margin-top: 15px;
+   }
+   
+   th, td {
+     border: 1px solid black;
+     padding: 8px;
+     text-align: center;
+   }
+   
+   th {
+     background-color: #f0e68c;
+   }
+   
+   .blocco-sotto a {
+     display: inline-block;
+     margin-top: 10px;
+     padding: 8px;
+     background-color: #add8e6;
+     color: black;
+     text-decoration: none;
+     border-radius: 5px;
+   }
+   
+   .blocco-sotto a:hover {
+     background-color: #7fffd4;
+   }
+   
+   .olimpiadi {
+     background-color: #f8f9fa;
+     padding: 40px;
+     text-align: center;
+   }
+   
+   .contenitore {
+     max-width: 800px;
+     margin: auto;
+   }
+   
+   .olimpiadi h2 {
+     font-size: 26px;
+     color: #005f73;
+   }
+   
+   .olimpiadi p {
+     font-size: 18px;
+     color: #333;
+     line-height: 1.6;
+   }
+   
+   .immagine-olimpiadi {
+     width: 100%;
+     max-width: 500px;
+     margin-top: 20px;
+     border-radius: 10px;
+   }
+   
+    .button {
+     display: inline-block;
+     margin-top: 15px;
+     padding: 10px 15px;
+     background-color: #870000;
+     color: white;
+     transition-duration: 1s;
+     text-decoration: none;
+     border-radius: 5px;
+   }
+
+     .button:hover {
+     background-color: #cd0401;
+   }
+   
+   
+   .blocco-grande {
+     background-color: #fffacd; 
+     padding: 20px;
+     border-radius: 10px;
+     border: 2px solid #e6c300; 
+   }
+   .blocco-piccolo {
+     background-color: #e0ffff; 
+     padding: 20px;
+     border-radius: 10px; 
+     border: 2px solid #87ceeb; 
+   }
+   
+   .blocco-piccolo h3, .blocco-piccolo p, .blocco-piccolo li {
+     color: #333; 
+   }

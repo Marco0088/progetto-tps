@@ -1,0 +1,38 @@
+body{
+	background-image: url('img/sfondo2.jpg');
+	background-repeat: no repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	background-size: cover;
+	
+}
+h1{	
+	font-family: "Poetsen One", sans-serif;
+	color: rgb(223, 210, 27); 
+	background-color: "#fefbd8";
+	font-size: 50px; }
+h2{
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif;
+	background: linear-gradient(to bottom,#f38015, #fe2d08);
+	color: black; 
+	font-size: 10}
+h3{
+	font-family: "Poetsen One", sans-serif;
+	color: rgb(255, 83, 44); 
+	background-color: "#fefbd8";
+	font-size:25px;}
+   
+    .button {
+     display: inline-block;
+     margin-top: 15px;
+     padding: 10px 15px;
+     background-color: #870000;
+     color: white;
+     transition-duration: 1s;
+     text-decoration: none;
+     border-radius: 5px;
+   }
+
+   .button:hover {
+     background-color: #cd0401;
+   }
